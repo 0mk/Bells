@@ -1,0 +1,20 @@
+Composition
+
+Method PlainBobMinor 6
+
+PlaceNotation
+X
+1 6.
+X
+1 6.
+X
+1 6.
+
+PlainLE
+1 2.
+
+BobLE
+1 4.
+
+SingleLE
+1 2 3 4.

@@ -1,0 +1,128 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link href="Bells.css" type="text/css" rel="stylesheet">
+    <title>Bells - A Bell Ringing Application</title>
+  </head>
+
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="book">
+
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a name="idp14602572"></a>Bells - A Bell Ringing Application</h1>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="toc">
+        <dl class="toc">
+          <dt><span class="chapter"><a href="UserGuide.html">Introduction</a></span></dt>
+          <dt><span class="chapter"><a href="UserGuide-Configuration.html">Configuration</a></span></dt>
+        </dl>
+      </div>
+
+      <div class="chapter">
+
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title"><a name="idp30099076"></a>Introduction</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="screenshot-1">
+          <div class="mediaobject" align="left"><img src="Bells001.png" align="left" width="400"></div>
+        </div>
+
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <div class="Introduction-1">
+          <p>
+            "Bells" is a program to reproduce traditional 
+            change-ringing, often performed on bells in church towers, 
+            especially in England. For a good introduction to change-ringing, 
+            see the article 
+            <a class="ulink" href="http://www.ringing.org/main/pages/change-ringing" target="_top">What 
+            is Change Ringing</a> on the web. This article and others it 
+            links to will explain the campanological buzzwords used in this 
+            manual.
+          </p>
+
+          <p>
+            The program consists of two parts - the client and the 
+            server. The client is the gui you see when "Bells" is 
+            started. The server is the process which actually does the ringing. 
+            The server is provided as a separate executable. To allow 
+            flexibility, the server may be placed in the filesystem 
+            independently of the client. Because of this, the client must be 
+            configured to tell it the location of the server program. See 
+            <a class="link" href="UserGuide-Configuration.html" title="Configuration">below</a> for details. Once properly 
+            configured, the two programs perform seamlessly together as if they 
+            were one.
+          </p>
+
+          <p>
+            The client and server communicate via tcp/ip.
+          </p>
+
+          <p>
+            The pattern of changes to be rung is known as a composition 
+            and is supplied as a composition file in place-notation format. 
+            Some example composition files are supplied with 
+            "Bells".
+          </p>
+
+          <p>
+            The server must be started by clicking the green bell button 
+            and it will then read the composition file and check it for errors. 
+            If all is ok, it will print the name of the first method it found 
+            and wait. You must then click the yellow bell button to commence 
+            ringing. You will then see the changes appear on the screen as the 
+            server rings them. As well as the visual output from the server, it 
+            also sends out alsa midi messages, one for each bell. 
+          </p>
+        </div>
+
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <div class="screenshot-2">
+          <div class="mediaobject" align="center">
+            <img src="Bells003.png" align="middle" width="800" height="600">
+          </div>
+        </div>
+
+        <div class="Introduction-2">
+          <p>
+            By connecting a soft synth to the midi output, the changes can be heard. I 
+            recommend using qjackctl for this purpose. You must start the 
+            server before it will show up in qjackctl.
+          </p>
+          <p>
+            The slider underneath the toolbar is used to adjust ringing speed.
+          </p>
+
+          <p>
+            The method may be aborted by clicking the crossed-out yellow bell.
+          </p>
+
+          <p>
+            Bobs and singles may be called interactively by clicking the 
+            relevant buttons. The program automatically reverts to a plain lead 
+            after the lead-end unless another call is made before the next 
+            lead-end.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

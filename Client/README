@@ -1,0 +1,13 @@
+This directory contains the Bells client code.
+To build and install, run the project top-level makefile.
+See the README in the parent directory.
+
+Developer docs for the client will be placed in the html directory below this one
+
+Please set your QTDIR environment variable to point to the Qt installation you wish to use.
+It should be set to the path of the directory immediately above the bin directory.
+
+Then add "$QTDIR/bin" to your PATH variable.
+
+Bells uses QWebEngineView so you must choose a Qt version that supports this.
+Qt5.5 is a good choice.

@@ -1,0 +1,46 @@
+Composition
+
+Method MartinsSublime 16
+
+PlaceNotation
+X
+3 8.
+X
+1 4.
+X
+1 2 5 8.
+X
+3 6.
+X
+1 4.
+X
+5 8.
+X
+1 6.
+X
+7 8.
+X
+1 6 9 12.
+X
+7 12.
+X
+1 6 9 14.
+X
+5 8 15 16.
+X
+7 10 13 14.
+X
+11 12 13 16.
+X
+1 5 9 10 11 12.
+X
+3 8.
+
+PlainLE
+1 2.
+
+BobLE
+1 4.
+
+SingleLE
+1 2 3 4.

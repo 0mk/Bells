@@ -1,0 +1,5 @@
+This directory contains the Bells server code.
+To build and install, run the project top-level makefile.
+See the README in the parent directory.
+
+Developer docs for the server will be placed in the html directory below this one

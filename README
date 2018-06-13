@@ -1,0 +1,32 @@
+FIRST
+To build, run:
+
+make
+from THIS directory.
+
+It is possible you may need to install extra packages for the build to succeed
+The build process will warn you if this is the case.
+
+THEN
+To install, run:
+
+sudo make install
+from THIS directory.
+
+That will build everything (client, server and documentation) and then install it.
+
+
+To run:
+
+Run /usr/local/bin/bells
+
+For help, click on the questionmark button. 
+
+There are a few example composition files in the Compositions directory below this one.
+
+
+You may also want to read the README files in the Client and Server directories
+
+Thanks for trying out Bells. Stay tuned for future episodes.
+
+Martin Kohn

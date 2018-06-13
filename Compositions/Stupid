@@ -1,0 +1,34 @@
+Composition
+
+Method StupidMaximus 12
+
+PlaceNotation
+X
+3 8.
+X
+1 4.
+X
+1 2 5 8.
+X
+3 6.
+X
+1 4.
+X
+5 8.
+X
+1 6.
+X
+7 8.
+X
+1 6 9 12.
+X
+7 12.
+
+PlainLE
+1 2.
+
+BobLE
+1 4.
+
+SingleLE
+1 2 3 4.

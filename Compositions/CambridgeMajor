@@ -1,0 +1,29 @@
+Composition
+Method CambridgeSurpriseMajor 8
+
+PlaceNotation
+X
+3 8.
+X
+1 4.
+X
+1 2 5 8.
+X
+3 6.
+X
+1 4.
+X
+5 8.
+X
+1 6.
+X
+7 8.
+
+PlainLE
+1 2.
+
+BobLE
+1 4.
+
+SingleLE
+1 2 3 4.
